@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #1a1a1c;
+    color: #fff;
+}
+
+table{
+    width: 80vw;
+    margin: 0 auto;
+    height: 100vh;
+    border-collapse: collapse;
+}
+
+img{
+    
+    width: 60px;
+    height: 60px;
+}
+td{
+    margin: 10px;
+    text-align: center;
+}
+
+.img-name-td{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.symbol{
+    text-transform:uppercase;
+}
+tr{
+   
+    border-bottom: 1px solid #fff;
+}
+::-webkit-scrollbar{
+    display: none;
+}
